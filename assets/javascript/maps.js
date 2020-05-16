@@ -1,3 +1,6 @@
+/* The first half of this file was written
+    by Chase & Maurice, the bottom half was me.*/
+
 // On page load, call functions
 $(document).ready(function () {
     // get MapBox.com
@@ -18,7 +21,7 @@ $(document).ready(function () {
 });
 
 
-/* BEGIN MAPBOX */
+/* BEGIN MAPBOX */      // MapBox implementation by Chase & Maurice
 
 // the base url end point 
 const baseUrlEndPoint = `https://coronavirus-tracker-api.herokuapp.com/v2/locations`;
@@ -476,7 +479,7 @@ function doEventBindings() {
 }
 
 
-/* BEGIN NEWS, TESTING & STATS CARDS */
+/* BEGIN NEWS, TESTING & STATS CARDS */     // The rest was all written by me.
 
 // Global var used in ajax calls and Select State Dropdown
 let userState = "";

@@ -1,3 +1,6 @@
+/* The first half of this CSS file was written by Chase,
+    with help from Maurice */ 
+
 /* Global */ 
 * {
     max-width: 100vw;
@@ -79,6 +82,8 @@ hr {
 .card-text-4 {
     color: #F0AD4E;
 }
+
+/* My styles */ 
 
 /* .hidden hides a MapBox component that
     cannot be removed without breaking map */ 
