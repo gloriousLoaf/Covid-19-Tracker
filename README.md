@@ -11,8 +11,8 @@ Stats by the number and mapped out globally. Local testing sites, news and human
 * [Images](#-images)
 * [Future Development](#-future-development)
 * [License](#-license)
-* [Tools](#-tools)
 * [Contributors](#-contributors)
+* [Tools](#-tools)
 * [Resources](#-resources)
 * [Questions](#-questions)
 <p>&nbsp;</p>
