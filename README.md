@@ -72,9 +72,9 @@ Local search button pulls up info to populate map. Also fills info into Recent C
 * Extracting numerous data points from AJAX to display in the correct elements in HTML.
 
 ## 📷 Images
-<img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/master/assets/images/covid-logo-dark.png" alt="Covid-19 Tracker" height="250">
+<img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/main/assets/images/covid-logo-dark.png" alt="Covid-19 Tracker" height="125">
 <p>&nbsp;</p>
-<img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/master/assets/images/covid-testing.png" alt="Covid-19 Tracker local testing results" height="400">
+<img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/main/assets/images/covid-testing.png" alt="Covid-19 Tracker local testing results" height="400">
 <p>&nbsp;</p>
 
 ## Future-Development ##
