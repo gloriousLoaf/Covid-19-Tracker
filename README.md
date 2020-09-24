@@ -5,16 +5,18 @@ TRENDING GLOBAL NEWS.
 HELPFUL LOCAL RESOURCES
 
 ## Table of Contents ##
-- [Team_Members](#Team_Members)
-- [User_Story](#User_Story)
+- [Team Members](#Team-Members)
+- [User Story](#User-Story)
 - [APIs](#APIs)
 - [Wireframe](#Wireframe)
 - [Tasks](#Tasks)
 - [Roles](#Roles)
 - [Successes](#Successes)
 - [Challenges](#Challenges)
-- [Future-Development](#Future-Development)
+- [Future Development](#Future-Development)
 - [Sources](#Resources)
+
+## Visit the tracker here 👉 [Covid-19 Tracker](https://metcalf.dev/Covid-19-Tracker/)
 
 ## Team Members ##
 
@@ -68,6 +70,12 @@ Local search button pulls up info to populate map. Also fills info into Recent C
 * Getting Map API to display cluters on Map with country data. 
 * Coordinating the various API calls to populate on load without errors.
 * Extracting numerous data points from AJAX to display in the correct elements in HTML.
+
+## 📷 Images
+<img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/master/assets/images/covid-19-tracker.png" alt="Covid-19 Tracker" height="225">
+<p>&nbsp;</p>
+<img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/master/assets/images/covid-testing.png" alt="Covid-19 Tracker local testing results" height="400">
+<p>&nbsp;</p>
 
 ## Future-Development ##
 
