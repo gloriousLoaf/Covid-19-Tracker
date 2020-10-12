@@ -1,138 +1,153 @@
 /* The first half of this CSS file was written by Chase,
-    with help from Maurice */ 
+    with help from Maurice */
 
-/* Global */ 
+/* Global */
 * {
-    max-width: 100vw;
+  max-width: 100vw;
 }
 *:focus {
-    outline: none;
+  outline: none;
 }
 
 /* Body Background color */
 body {
-    background-color: #1F2328;
+  background-color: #1f2328;
 }
 
 /* NavBar Styling */
-.navbar .navbar-brand{
-    color: white;
+.navbar .navbar-brand {
+  color: white;
 }
 
 .navbar {
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
-    min-height: 80px;
-    border-bottom: solid 2px green;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  min-height: 80px;
+  border-bottom: solid 2px green;
 }
 
 .navbar-brand {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  text-align: center;
 }
 
 /* Map Styling */
 #map {
-    height: 600px;
-    /* width: auto; */
-    border: .5px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
-    color: gray;
+  height: 600px;
+  /* width: auto; */
+  border: 0.5px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  color: gray;
 }
 
 #corona-world-details {
-    background-position: center;
-  }
+  background-position: center;
+}
+/* country flags */
+.flag {
+  max-width: 2.2rem;
+  max-height: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
 
 /* Card Styling */
 hr {
-    border-bottom: solid 2px green;
+  border-bottom: solid 2px green;
 }
 
 .card {
-    background-attachment: #1F1B24;
-    border: .5px;
-    padding: 10px;
-    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
+  background-attachment: #1f1b24;
+  border: 0.5px;
+  padding: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.23);
 }
 
 /* Card background color*/
 .bg-custom-1 {
-    background-color:#24292E;
+  background-color: #24292e;
 }
 
 /* Card Text Color */
 .card-text {
-    color: white;
+  color: white;
 }
 
 .card-text-1 {
-    color: #5BC0DE;
+  color: #5bc0de;
 }
 
 .card-text-2 {
-    color: #5CB85C;
+  color: #5cb85c;
 }
 
 .card-text-3 {
-    color: #D9534F;
+  color: #d9534f;
 }
 
 .card-text-4 {
-    color: #F0AD4E;
+  color: #f0ad4e;
 }
 
-/* My styles */ 
+/* My styles */
 
 /* .hidden hides a MapBox component that
-    cannot be removed without breaking map */ 
+    cannot be removed without breaking map */
 .hidden {
-    display: none;
+  display: none;
 }
 
-/* Stats Cards, dynamic fill - New  */ 
+/* Stats Cards, dynamic fill - New  */
 .squeeze {
-    max-width: 90%;
-    margin: 0 auto;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
-/* For dynamically created stats */ 
-.cards-p{
-    font-weight: 500;
-    text-align: center;
-    margin-top: -8px;
+/* For dynamically created stats */
+.cards-p {
+  font-weight: 500;
+  text-align: center;
+  margin-top: -8px;
 }
 
-/* News & Testing Section */ 
-#news-list li, #test-list li, #more-list li {
-    list-style: none;
-    padding-bottom: 10px;
-    color: white;
+/* News & Testing Section */
+#news-list li,
+#test-list li,
+#more-list li {
+  list-style: none;
+  padding-bottom: 10px;
+  color: white;
 }
 
-#news-list a, #more-list a {
-    color: #ffffff;
-    font-weight: 500;
+#news-list a,
+#more-list a {
+  color: #ffffff;
+  font-weight: 500;
 }
 
-/* News & Testing Titles, Show More Buttons, Additional Resources*/ 
-#news, #local-testing, #more-tests, 
-#more-news, #more-resources {
-    margin-left: 40px;
+/* News & Testing Titles, Show More Buttons, Additional Resources*/
+#news,
+#local-testing,
+#more-tests,
+#more-news,
+#more-resources {
+  margin-left: 40px;
 }
 
-#news, #local-testing, #more-resources {
-    font-weight: 500;
+#news,
+#local-testing,
+#more-resources {
+  font-weight: 500;
 }
 
-/* Dislaying userState, which is toLowerCase() by default */ 
+/* Dislaying userState, which is toLowerCase() by default */
 #your-state {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
-/* .hide & button text toggled dynamically in js */ 
+/* .hide & button text toggled dynamically in js */
 .hide {
-    height: 265px;
-    overflow: hidden;
+  height: 265px;
+  overflow: hidden;
 }
