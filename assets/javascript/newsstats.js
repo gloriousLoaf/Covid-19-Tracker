@@ -1,18 +1,18 @@
-/* BEGIN NEWS, TESTING & STATS CARDS */     // The rest was all written by me.
+/* BEGIN NEWS, TESTING & STATS CARDS */
+// This was all written by me, David Metcalf.
 
 // Global var used in ajax calls and Select State Dropdown
 let userState = "";
 
 /* NovelCOV-19 API Calls */
 // Global Stats
-var settings = {
+const statSettings = {
     "url": "https://disease.sh/v2/all",
     "method": "GET",
     "timeout": 0,
 };
 
-$.ajax(settings).done(function (response) {
-    // console.log(response);
+$.ajax(statSettings).done(function (response) {
     // assign values to vars
     let globalActive = response.active;
     let globalRecovered = response.recovered;
@@ -36,14 +36,13 @@ $.ajax(settings).done(function (response) {
 function stateStatsCall() {
     // plug userState into call
     let stateStatsURL = "https://disease.sh/v2/states/" + userState;
-    var settings = {
+    const newsSettings = {
         "url": stateStatsURL,
         "method": "GET",
         "timeout": 0,
     };
 
-    $.ajax(settings).done(function (response) {
-        console.log(response);
+    $.ajax(newsSettings).done(function (response) {
         // assign values to vars
         let stateName = response.state;
         let stateActive = response.active;
@@ -81,14 +80,12 @@ function ajaxState() {
 // ajaxNews() fills News Section
 function ajaxNews() {
     // developer.nytimes.com Article Search API
-    let newsURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=coronavirus&` +
+    const newsURL = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=coronavirus&` +
         `api-key=06RnZqeJw8n5FJNG9657OXR22GDoKKwm`;
     $.ajax({
         url: newsURL,
         method: "GET"
     }).then(function (response) {
-        console.log(response);
-
         // array to hold titles
         let newsTitles = [];
         // array to hold urls
@@ -100,13 +97,11 @@ function ajaxNews() {
         }
         // Shuffling the two arrays: Fisher-Yates Algorithm
         for (i = newsTitles.length - 1; i > 0; i--) {
-            // generate random number from 0 to last index, first pass is 0 to 4,
-            // with each pass of loop, decrement highest possible value for j
-            // we're going to swap the value in index i for the value at the randomly
-            // generated number j, using a pass through var called tempTitles
+            // random number from 0 to last index, with loop, decrement highest
+            // possible value for j. swap the value in index i for the value at
+            // the randoml number j, using a pass-through var called tempTitles
             let j = Math.floor(Math.random() * i);
-            // first the newsTitles[]
-            // tempTitles holds value of i
+            // first the newsTitles[]: tempTitles holds value of i
             let tempTitles = newsTitles[i];
             // newsTitles[i] now takes value at random index j
             newsTitles[i] = newsTitles[j];
@@ -117,7 +112,6 @@ function ajaxNews() {
             newsLinks[i] = newsLinks[j];
             newsLinks[j] = tempLinks;
         }
-        // arrays are now shuffled in the same manner,
         // display in html, set link attributes
         for (i = 0; i < newsTitles.length; i++) {
             $("#news-list").append("<li><a href=" + newsLinks[i] + " target='_blank'>" + newsTitles[i] + "</a></li>");
@@ -135,8 +129,6 @@ function ajaxTesting() {
         url: localTesting,
         method: "GET"
     }).then(function (response) {
-        console.log(response);
-
         // array to hold listing names
         let testingSites = [];
         // array for their phone numbers

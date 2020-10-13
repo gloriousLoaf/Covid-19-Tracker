@@ -1,13 +1,12 @@
-/* The first half of this CSS file was written by Chase,
-    with help from Maurice */
+/* The first half of this CSS file was written by Chase & Maurice */
 
 /* Global */
 * {
   max-width: 100vw;
 }
-*:focus {
+/* *:focus {
   outline: none;
-}
+} */
 
 /* Body Background color */
 body {
@@ -98,7 +97,7 @@ hr {
   display: none;
 }
 
-/* Stats Cards, dynamic fill - New  */
+/* Stats Cards, dynamic fill */
 .squeeze {
   max-width: 90%;
   margin: 0 auto;
