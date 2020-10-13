@@ -1,4 +1,4 @@
-# Covid-19 Track
+# Covid-19 Tracker
 Stats by the number and mapped out globally. Local testing sites, news and humanitarian resources.
 
 ![GitHub language count](https://img.shields.io/github/languages/count/gloriousLoaf/Covid-19-Tracker)
@@ -34,6 +34,8 @@ Users are able to interact with the map thanks to the **Mapbox** API technology 
 
 ## 📷 Images
 <img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/main/assets/images/covid-logo-dark.png" alt="Covid-19 Tracker" height="125">
+<p>&nbsp;</p>
+<img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/main/assets/images/covid-map.png" alt="Covid-19 Tracker" height="400">
 <p>&nbsp;</p>
 <img src="https://github.com/gloriousLoaf/Covid-19-Tracker/blob/main/assets/images/covid-testing.png" alt="Covid-19 Tracker local testing results" height="400">
 <p>&nbsp;</p>
